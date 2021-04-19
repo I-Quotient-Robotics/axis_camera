@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/iqr/scout_ws/devel/include",
+        "/home/iqr/catkin_ws/devel/include",
+        "/opt/ros/melodic/include",
+        "/home/iqr/scout_ws/src/aubo_ros_driver/aubo_base/include",
+        "/home/iqr/scout_ws/src/aubo_ros_driver/aubo_msgs/include",
+        "/home/iqr/scout_ws/src/iraytek_ros_driver/include",
+        "/home/iqr/scout_ws/src/nmea_ros_driver/include",
+        "/home/iqr/scout_ws/src/hardware/robotiq_85_gripper/robotiq_85_simulation/roboticsgroup_gazebo_plugins/include",
+        "/home/iqr/scout_ws/src/scout_ros_driver/scout_base/include",
+        "/home/iqr/scout_ws/src/voice_control/voice_control/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}
