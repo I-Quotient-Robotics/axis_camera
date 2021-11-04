@@ -1,18 +1,26 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(axis_camera)
 
-
 find_package(catkin REQUIRED
   COMPONENTS
-  dynamic_reconfigure
+  rospy
+  std_msgs
+  sensor_msgs
   geometry_msgs
   message_generation
-  std_msgs
+  dynamic_reconfigure
+  tf
+  tf2
 )
 catkin_python_setup()
 
 # ROS message generation
-add_message_files(FILES axis_ptz_msg.msg axis_ptz_cmd.msg)
+add_message_files(
+  FILES 
+  axis_ptz_msg.msg 
+  axis_ptz_cmd.msg
+)
+
 generate_messages(DEPENDENCIES geometry_msgs std_msgs)
 
 catkin_package()
